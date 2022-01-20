@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 
-import PropTypes from "prop-types";
-
 const AddTask = ({ onAddTask }) => {
   const [text, setText] = useState("");
   const [day, setDay] = useState("");
